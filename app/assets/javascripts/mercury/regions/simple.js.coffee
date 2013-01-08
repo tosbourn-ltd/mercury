@@ -99,9 +99,9 @@ class @Mercury.Regions.Simple extends Mercury.Region
           # use.
           event.preventDefault()
 
-        when 9 # tab
-          event.preventDefault()
-          @execCommand('insertHTML', {value: '  '})
+          #when 9 # tab
+          #event.preventDefault()
+          #@execCommand('insertHTML', {value: '  '})
 
       @pushHistory(event.keyCode)
 
