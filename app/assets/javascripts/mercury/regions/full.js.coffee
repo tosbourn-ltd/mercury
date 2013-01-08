@@ -155,9 +155,9 @@ class @Mercury.Regions.Full extends Mercury.Region
             event.preventDefault()
             @document.execCommand('insertHTML', false, '<br/>')
 
-        when 9 # tab
-          event.preventDefault()
-          container = @selection().commonAncestor()
+#        when 9 # tab
+#          event.preventDefault()
+#          container = @selection().commonAncestor()
 
           # indent when inside of an li
           if container.closest('li', @element).length
