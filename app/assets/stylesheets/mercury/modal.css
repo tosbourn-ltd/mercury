@@ -13,6 +13,8 @@
   background: rgba(255, 255, 255, .8);
 }
 .mercury-modal {
+  height: inherit !important;
+  min-height: 50px;
   position: fixed;
   z-index: 10050;
   top: 0;
