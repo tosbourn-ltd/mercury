@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
 
 
   # Runtime Dependencies
-  s.add_dependency 'railties', '~> 3.2'
+  s.add_dependency 'railties'
   s.add_dependency 'coffee-rails'
 
   # Development Dependencies
